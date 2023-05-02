@@ -1,0 +1,38 @@
+.main{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+  height: 100vh;
+}
+.con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(88, 29, 184);
+  color: aliceblue;
+  font-weight: 700;
+  max-width: 50%;
+  width: 30%;
+  max-height: 50%;
+  border-radius: 20px;
+  text-align: center;
+padding: 20px;
+
+}
+.count{
+  font-size: 28px;
+  text-transform: capitalize;
+}
+.btn {
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  color:rgb(88, 29, 184) ;
+  height: 25px;
+}
